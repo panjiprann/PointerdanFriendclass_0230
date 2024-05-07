@@ -18,6 +18,6 @@ int main ()
     mhs->nim = 2;
     mhs->showNim();
     delete mhs;
-    int main ()
+    int main ();
     return 0;
 }
