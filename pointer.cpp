@@ -5,8 +5,8 @@ class persegiPanjang
 {
 
 public:
-    int panjang, alas;
-    int luasSegitiga(int b, int a)
+    int panjang, lebar;
+    int luasPersegiPanjang(int b, int a)
     {
         return a * b;
     }
@@ -39,7 +39,7 @@ int main(){
     cout << "Masukan TInggi : ";
     cin >> sg.tinggi;
     cout << "Luas Persegi Panjang : " << pp.luasPersegiPanjang(pp.panjang, pp.lebar) << endl;
-    cout << "Luas Segitiga : " << sg.luasSegitiga(sg.alas, sg.tinggi) << endl;
+    cout << "Luas Segitiga : " << sg.luasSegitiga(sg.alas, sg.tinggi) << endl;
 }
 
 
