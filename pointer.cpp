@@ -30,6 +30,11 @@ public:
 int main(){
     persegiPanjang pp;
     segitiga sg;
+    cout << "Masukan Panjang : ";
+    cin >> pp.panjang;
+    cout << "Masukan Lebar : ";
+    cin >> pp.alas;
+
 
 }
 
