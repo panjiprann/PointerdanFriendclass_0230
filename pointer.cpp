@@ -5,16 +5,24 @@ class persegiPanjang
 {
 
 public:
-    int panjang, lebar;
-    int luasPersegiPanjang(int b, int a)
+    int panjang, alas;
+    int luasSegitiga(int b, int a)
     {
         return a * b;
     }
 };
+
 class segitiga
 {
 
 public:
+     int alas, tinggi;
+    int luasSegitiga(int a, int t)
+    {
+        return (a * t) / 2;
+    }
+
+   
 
 };
 
