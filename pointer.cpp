@@ -21,8 +21,14 @@ public:
     {
         return (a * t) / 2;
     }
+    int hitung(persegiPanjang p)
+    {
+        return p.panjang;
+    }
+};
+
 
    
 
-};
+
 
